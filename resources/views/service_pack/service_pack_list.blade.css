@@ -1,0 +1,42 @@
+/*
+Error: Inconsistent indentation: "          \t\t" was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 18 of /home/ubuntu/workspace/resources/views/service_pack/service_pack_list.blade.php
+
+13: <div class="container">
+14:     <div class="row">
+15:         <div class="user_header" style="margin-top:8%"> 
+16:             <h3 class="vat-tax-heading">Service Pack List</h3>
+17:             @if(Session::has('success'))
+18:           		<div class="alert alert-success">
+19:           			<b>{!!Session::get('success')!!}</b>
+20:           		</div>
+21:           	@endif
+22:             @if(Session::has('error'))
+23:               <div class="alert alert-warning">
+
+Backtrace:
+/home/ubuntu/workspace/resources/views/service_pack/service_pack_list.blade.php:18
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:486:in `block in tabulate'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:444:in `each'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:444:in `each_with_index'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:444:in `tabulate'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/mnt/shared/lib/ruby/2.2.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/nix/store/yrs58pvf72cn1mcax0s685yw2dqzzvqv-ruby-1.9.3-p484/bin/scss:23:in `load'
+/nix/store/yrs58pvf72cn1mcax0s685yw2dqzzvqv-ruby-1.9.3-p484/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: \"          \t\t\" was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 18 of /home/ubuntu/workspace/resources/views/service_pack/service_pack_list.blade.php\A \A 13: <div class=\"container\">\A 14:     <div class=\"row\">\A 15:         <div class=\"user_header\" style=\"margin-top:8%\"> \A 16:             <h3 class=\"vat-tax-heading\">Service Pack List</h3>\A 17:             @if(Session::has('success'))\A 18:           		<div class=\"alert alert-success\">\A 19:           			<b>{!!Session::get('success')!!}</b>\A 20:           		</div>\A 21:           	@endif\A 22:             @if(Session::has('error'))\A 23:               <div class=\"alert alert-warning\">"; }

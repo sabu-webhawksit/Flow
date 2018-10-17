@@ -1,0 +1,74 @@
+iCare Data Recovery
+Date Generated: 06/19/2016 09:27:59
+
+Memory status:
+Total physical memory:8092 MB	Available physical memory:4867 MB
+Total   page    files:16182 MB	Available    page   files:12666 MB
+Unknown operating system!
+OS Directory - C:\Windows\system32
+Module Directory - C:\Users\WebHawksIT\Downloads\iCare Data Recovery Pro 7.9.0.0 Incl Crack + Portable [SadeemPC]\iCare Data Recovery Pro 7.9.0.0 Portable\App\
+
+Performing Deleted File Recovery...
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+0         976773168       60801         255                 63             TOSHIBA DT01ACA050  
+1          60555264        3769         255                 63   USB3.0   FLASH DRIVE   USB Device
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect basic volume-----------------------------------
+DriverLetter   FileSystem  StartSector     TotalSectors     ParentDisk: Disk      VolumeLabel
+
+D              NTFS              2048            204799                 0                      
+
+E              NTFS            206848         241267873                 0  Software + Entertainment
+
+F              NTFS         241474728         204794906                 0  All Design Work Here
+
+C              NTFS         446269635         530498429                 0                      
+
+H             FAT32              8064          60547200                 1                   UUI
+
+-----------------------------end collect basic volume-----------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+Quick searching partition device - C:(NTFS)
+NTFS:Reading files
+NTFS:Building directory tree
+Completely search the selected device.
+Found nothing.
+Displaying directory tree.
+
+Performing Complete File Recovery...
+----------------------------------------------------------------------------------------------------------
+
+Disk    TotalSectors       Cylinders    Heads    Sectors/Track     DIskInfo
+0         976773168       60801         255                 63             TOSHIBA DT01ACA050  
+1          60555264        3769         255                 63   USB3.0   FLASH DRIVE   USB Device
+----------------------------------------------------------------------------------------------------------
+
+-----------------------------begin collect basic volume-----------------------------------
+DriverLetter   FileSystem  StartSector     TotalSectors     ParentDisk: Disk      VolumeLabel
+
+D              NTFS              2048            204799                 0                      
+
+E              NTFS            206848         241267873                 0  Software + Entertainment
+
+F              NTFS         241474728         204794906                 0  All Design Work Here
+
+C              NTFS         446269635         530498429                 0                      
+
+H             FAT32              8064          60547200                 1                   UUI
+
+-----------------------------end collect basic volume-----------------------------------
+
+-----------------------------begin collect dynamic volume-----------------------------------
+DriverLetter   FileSystem   DynamicVolumeType   TotalSectors       VolumeLabel      ParentDiskInfo
+
+-----------------------------end collect dynamic volume-------------------------------------
+
+Intelligent searching partition device - C:(NTFS)

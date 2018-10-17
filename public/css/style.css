@@ -1,0 +1,59 @@
+.add-button{
+    margin-top: 2%;
+    background: #1292cd !important;
+}
+.model-header{
+    background: #68DFF0;
+    color: #fff;
+}
+.edit-icon{
+    background: #265A88;
+    color: #fff;
+    border:0;
+    
+    font-size: 14px;
+    
+
+}
+.edit-icon:hover{
+    color:#fff;
+}
+.edit-icon:focus{
+    border:0px #fff solid !important;
+}
+.custom-button{
+    padding: 0px 6px;
+}
+.btn{
+    border-radius:0 !important;
+}
+.padding-top-main{
+    padding-top:25px;
+}
+.custom-panel{
+    border-radius:0;
+}
+.remove-padding{
+    padding:0 !important;
+}
+.pagination{
+    margin:0 !important;
+}
+hr{
+    background:#000;
+    height:1px;
+    margin:10px 0px;
+}
+.modal-content{
+    border-radius:0px !important;
+}
+.form-control{
+    border-radius:0px !important;
+}
+
+/*Modal header color by Noor*/
+.modal-header
+{
+    background-color: #1292CD;
+}
+/*Modal header color by Noor*/

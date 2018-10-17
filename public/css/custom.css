@@ -1,0 +1,438 @@
+.no-margin{
+    margin:0px;
+}
+.no-padding{
+    padding:0px;
+}
+.no-left-margin{
+    margin-left: 0px;
+}
+.no-right-margin{
+    margin-right:0px;
+}
+.no-padding-left{
+    padding-left: 0px;
+}
+.no-padding-right{
+    padding-right: 0px;
+}
+.no-margin-left-right{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.no-padding-left-right{
+    padding-left: 0;
+    padding-right: 0;
+}
+.paddin-top-bottom{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.set-padding-left-right{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.styled-select {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url('http://bavotasan.com/wp-content/uploads/2011/05/down_arrow_select.jpg') no-repeat right #ddd;
+   border: 1px solid #ccc;
+   }
+/*New Css Content*/
+header{
+    background-image:url("../images/bg-logo.jpg");
+    background-repeat: repeat-x;
+    min-height: 70px;
+    border-bottom:3px solid #1292cd;
+    text-align:center;
+}
+header.logo img {
+    height: 40px;
+    margin-top:15px;
+}
+.menubar{
+    font-size: 45px;
+    text-align:center;
+    padding-left:0;
+    list-style:none;
+}
+.menu_item {
+    border-bottom: 1px solid #fff;
+    background:#1292cd;
+    cursor: pointer;
+    padding:15px 0px;
+}
+.menu_item a{
+    color:#fff;
+}
+.menu_item:hover , .menu_item:hover a i , .menu_item.actives >a i{
+    color:#1292cd;
+    background:#e1f0fa;
+    transition:all 300ms linear;
+}
+.top_hr{
+    width: 100%;
+    height: 15px;
+    border-bottom: 5px solid #1292cd;
+    text-align: center;
+    margin: 35px 0px;
+}
+.top_hr >span{
+    font-size: 17px;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-left: 5px solid #1292cd;
+    border-right: 5px solid #1292cd;
+    font-weight: bold;
+}
+.top_hr_supervisor{
+    height: 20px;
+    border-bottom: 4px solid #1292cd;
+}
+.top_hr >.supervisor{
+    background-color: #fff;
+    border-left: 5px solid #1292cd;
+    border-right: 5px solid #1292cd;
+    display: inline-block;
+    padding: 0 10px;
+}
+.supervisor >h1{
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.supervisor >p{
+    font-size: 17px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.footer-logo{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.footer{
+    background-image:url("../images/bg-logo.jpg");
+    background-repeat:repeat-x;
+    height: 90px;
+    bottom: 0;
+    width: 100%;
+
+}
+.foooter-heading{
+    margin:0;
+    font-weight: bold;
+}
+.custom-settings{
+    margin-top: 30px;
+}
+
+.custom-input-group{
+    background: #1292cd;
+    padding: 3px 7px 3px 0px;
+}
+.custom-group-addon{
+    background: #1292cd;
+    border: 0;
+}
+.custom-search-btn{
+    background: #1292cd;
+    border: none;
+    color: #fff;
+}
+.custom-search-input{
+    border-radius: 6px !important;
+}
+
+.custom-search-input::-webkit-input-placeholder {
+   color: #1292cd;
+   text-align: center;
+   font-weight: bold;
+   letter-spacing: 2px;
+   font-size:15px;
+}
+
+.panel-heading-title{
+    color: #fff !important;
+    background-color: #1292cd !important;
+    border-radius:0;
+    cursor: pointer;
+}
+.panel-style {
+    border:none;
+}
+.custom-form-control{
+    border-radius: 0px;
+    border-color: #1296cd;
+}
+
+.custom-btn,.custom-btn:hover{
+    background-color: #1292cd;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+}
+
+#selectbox{
+    color: #555;
+    border: 1px solid #1292cd;
+    border-radius: 0px;
+
+}
+
+/*View Section*/
+.input-view{
+    border: none;
+    border-top: 1px solid #1192CC;
+    background: #E8F6FF;
+    color: #000;
+    font-weight: 500;
+    height:auto;
+}
+.input-view-textarea{
+    height: auto;
+    text-align: justify;
+}
+
+.custom-panel-box{
+    border-radius: 0 !important;
+    border-color: #1293CD;
+}
+.custom-panel-box-heading{
+    color: #fff !important;
+    background: #1293CD !important;
+    border-radius: 0;
+}
+.attendent-group-view{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+}
+.attendent-view-control{
+    height: auto;
+    padding: 15px;
+}
+.attendent-view-control span{
+    background: #1292cd;
+    padding: 11px;
+    color: #fff;
+    margin: 0 10px 0 1px;
+    font-size: 16px;
+}
+.custom-table{
+    border-color: #1292cd;
+}
+.custom-table>tbody>tr>td, .custom-table>tbody>tr>th, .custom-table>tfoot>tr>td, .custom-table>tfoot>tr>th, .custom-table>thead>tr>td, .custom-table>thead>tr>th {
+    border: 1px solid #1292cd;
+}
+.custom-table thead{
+    background:#E8F6FF;
+}
+.custom-table-class input[type='file'] {
+    width:100px;
+    color:transparent;
+}
+.sub-panel-design{
+    margin-top:20px;
+}
+.table-background{
+  background:#E8F6FF;
+  width: 200px;
+}
+.custom-nav-tabs{
+  background:#4EB6E9;
+  border-bottom: none;
+}
+.custom-nav-tabs li{
+  border-right: 1px solid #fff;
+}
+.custom-nav-tabs li:last-child{
+  border-right: 0;
+}
+.custom-nav-tabs li:hover,.custom-nav-tabs li a:hover{
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  background: #1293CD;
+}
+
+.custom-nav-tabs a{
+  color: #fff;
+  padding-left: 94px !important;
+  padding-right: 91px !important;
+  font-size: 22px;
+}
+.actives{
+  margin-bottom: 0;
+  border-right: 1px solid #fff;
+  color: #1292cd;
+  background: #e1f0fa;
+  transition: all 300ms linear;
+}
+
+
+.custom-nav-tabs>li.active>a, .custom-nav-tabs>li.active>a:focus, .custom-nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    background: #1293CD;
+}
+.custom-style{
+  text-align: right;
+  caption-side: bottom;
+  cursor:pointer;
+}
+
+/*Pane design*/
+.clickable
+{
+    cursor: pointer;
+}
+
+.clickable .glyphicon
+{
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span
+{
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
+
+.panel-primary {
+    border-color: #20A9E0;
+    border-radius: 0px;
+}
+.panel-success {
+    border-color: #20A9E0;
+    border-radius: 0px;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #20A9E0;
+    border-color: #20A9E0;
+    border-radius: 0px;
+}
+.panel-success>.panel-heading {
+    color: #fff;
+    background-color: #20A9E0;
+    border-color: #20A9E0;
+    border-radius: 0px;
+}
+
+
+.custom-modal{
+    width: 70%;
+    border-radius:0;
+}
+.custom-modal-content{
+    border-radius: 0;
+}
+.custom-close-btn{
+    border-radius: 0;
+}
+
+/*Tokenize area*/
+div.Tokenize ul.TokensContainer, div.Tokenize ul.Dropdown {
+    border: none;
+}
+div.Tokenize ul.TokensContainer {
+    -moz-user-select: none;
+    background-color: white;
+    cursor: text;
+    height: auto;
+    padding: 0 5px 5px 0;
+}
+.form-control.custom-form-control.Tokenize {
+    height: auto;
+    min-height: 70px;
+}
+li.Token{
+    border: 1px solid #1293CD !important;
+    background-color: #1293CD !important;
+    padding: 5px 10px !important;
+    line-height: 18px !important;
+    height:auto !important;
+}
+div.Tokenize ul li span{
+    font-size:15px !important;
+    color:#fff;
+}
+
+.custom-info-btn {
+    background-color: #20A9E0;
+    border-radius: 0;
+    padding: 8px 30px;
+    border: none;
+}
+.custom-btn-warng{
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+/*Noor time picker widget z-index for chrome browser*/
+
+.bootstrap-timepicker-widget
+{
+    z-index: 1060 !important;
+}
+
+/*Noor time picker widget z-index for chrome browser*/
+
+/*select2 select box styling*/
+
+.select2
+{
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single
+{
+    border-radius: 0px;
+    border-color: #1296cd;
+    height: 35px;
+}
+.remove-bd-ceckbox{
+    border: none;
+    border-radius: 0; 
+     -webkit-box-shadow: none; 
+     box-shadow: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered
+{
+    line-height: 35px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+{
+    height: 30px;
+}
+
+.new_email
+{
+    width: 100% !important;
+    border: 1px solid #1296cd;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+/*select2 select box styling*/
+
+/*Attendee box width styling*/
+
+.TokensContainer
+{
+    height: 55px !important;
+}

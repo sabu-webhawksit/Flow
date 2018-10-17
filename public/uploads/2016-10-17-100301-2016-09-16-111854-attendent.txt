@@ -1,0 +1,79 @@
+
+                <div class="container">
+                    <div class="block-header">
+                        <h2>Designation Insert</h2>
+
+                        <ul class="actions">
+                            <li>
+                                <a class="icon-pop" href="#">
+                                    <i class="zmdi zmdi-trending-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon-pop" href="#">
+                                    <i class="zmdi zmdi-check-all"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="icon-pop" href="#" data-toggle="dropdown">
+                                    <i class="zmdi zmdi-more-vert"></i>
+                                </a>
+
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="#">Refresh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Manage Widgets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Widgets Settings</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Input Text
+                                <small>Text Inputs with different sizes by height and column.</small>
+                            </h2>
+                        </div>
+
+                        <div class="card-body card-padding">
+                            <p class="c-black f-500">Basic Text Feilds with different sizes by height and column.</p>
+
+                            <div class="form-group">
+                                <div class="fg-line">
+                                    <input type="text" class="form-control input-lg" placeholder="Designation Name" name="designation_name">
+                                </div>
+                            </div>
+
+							<div class="form-group">
+                                <div class="fg-line">
+                                    <input type="text" class="form-control input-lg" placeholder="Designation Short Name" name="designation_short_name">
+                                </div>
+                            </div>
+
+
+							<div class="form-group">
+                                <div class="fg-line">
+                                    <input type="text" class="form-control input-lg" placeholder="Desgination Status" name="desgination_status">
+                                </div>
+                            </div>
+
+                             <input type="submit" class="form-control input-lg" value="Submit" name="">
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>

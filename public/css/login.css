@@ -1,0 +1,62 @@
+.custom-margin-left{
+    margin-left:0px !important;
+}
+.custom-margin-right{
+    margin-right:0px !important;
+}
+.custom-padding-left{
+    padding-left:0px !important;
+}
+.custom-padding-right{
+    padding-right:0px !important;
+}
+.custom-margin{
+    margin:0px !important;
+}
+.custom-padding{
+    padding:0px !important;
+}
+.custom-info-btn{
+    background-color: #20A9E0;
+    border-radius: 0;
+    padding: 10px 40px;
+    border: none;
+}
+.custom-input-group-addon{
+    min-width: 120px;
+    border-radius: 0px;
+    background: #20A9E0;
+    border: 1px solid #20A9E0;
+    padding: 12px;
+}
+.custom-input-field{
+    border: 1px solid #20A9E0;
+    border-right: 5px solid #20A9E0;
+    border-radius: 0px;
+    height: 40px;
+}
+.custom-input-field:focus{
+    border-top: 5px solid #20A9E0 !important;
+    border-right: 1px solid #20A9E0 !important;
+    box-shadow: none;
+    border-left:1px solid #20A9E0;
+}
+.login-logo{
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+.login-footer{
+    margin-top:10%;
+}
+.login-footer-info{
+    margin-top:10%;
+}
+.login-input-group{
+    margin: 0px auto;
+}
+.login-btn{
+    padding: 7px 70px;
+}
+.login_span_color{
+    color:#fff;
+}
